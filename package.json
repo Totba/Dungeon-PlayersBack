@@ -2,7 +2,7 @@
   "name": "dungeon-playerback",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "ts-node src/index.ts",
     "build": "tsc",
@@ -23,6 +23,7 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.13.0",
     "reflect-metadata": "^0.2.2",
     "typeorm": "^0.3.21"
   }
