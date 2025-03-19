@@ -1,0 +1,26 @@
+{
+  "name": "dungeon-playerback",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.21"
+  }
+}
