@@ -1,6 +1,6 @@
-import "reflect-metadata";
 import express from "express";
-import { register, login } from "../controllers/auth.controller";
+import "reflect-metadata";
+import { login, register } from "../controllers/auth.controller";
 
 const router = express.Router();
 
